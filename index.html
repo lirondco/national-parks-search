@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>National Parks Search</title>
+</head>
+<body>
+<header><h1>National Parks Service - Park Search</h1></header>
+<div>
+    <form class="search-form">
+        <label for="search-parks">List Parks in these states</label><br>
+        <input type="text" name="search-parks" id="search-parks" placeholder="co,ia,va" required>
+        <input type="number" name="results-total" id="results-total" placeholder="10" min="0" step="1" required>
+        <div><button type="submit" id="submit-search">Search</button><button type="reset">Clear Field</button></div>
+    </form>
+</div>
+<div id="results">
+<p id="error-message"></p>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

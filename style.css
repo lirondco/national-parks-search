@@ -1,0 +1,36 @@
+body {
+    background-color: #040;
+    color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#results {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    white-space: pre-line;
+}
+
+a {
+    color: burlywood;
+}
+
+a::after {
+    color: blanchedalmond;
+}
